@@ -74,7 +74,7 @@
     {
       "type": "patchouli:crafting",
       "recipe": "tfc:crafting/mud_bricks/loam",
-      "title": " ",
+      "title": "?",
       "text": "这些干燥后的壤泥砖可以做成$(thing)壤泥砖块$()。它们也可以做成$(thing)楼梯$()、$(thing)台阶$()、或$(thing)墙$()。"
     },
     {
@@ -146,7 +146,7 @@
       "images": [
         "tfc:textures/gui/book/tutorial/wattle_stained.png"
       ],
-      "text": "It can then be $(thing)stained$() by using $(l:mechanics/dye)Dye$() on it.",
+      "text": "手持$(l:mechanics/dye)染料$()右键点击可以对其进行$(thing)染色$()。",
       "border": true
     },
     {

@@ -1,39 +1,39 @@
 {
   "__comment__": "This file was automatically created by mcresources",
-  "name": "Jarring",
+  "name": "罐裝",
   "category": "tfc:mechanics",
   "icon": "tfc:jar/plum",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Jars$() are used to preserve fruit for longer periods of time. Jars start as $(thing)Empty Jars$(), obtained through $(l:mechanics/glassworking_applications#jar)Glassworking$(). Then, a $(thing)Jar Lid$() must be smithed from $(thing)Tin$(). Crafting these together creates an $(thing)Empty Jar With Lid$()."
+      "text": "$(thing)玻璃罐$()可以將水果長期儲存，是一種十分有用的工具。透過$(l:mechanics/glassworking_applications#jar)玻璃工藝$()製作出$(thing)空玻璃罐$()，再用$(thing)錫$()鍛造出一隻$(thing)罐蓋$()，將兩者組合在一起就能做出$(thing)蓋子與空罐$()."
     },
     {
       "type": "patchouli:text",
-      "text": "In a pot, boil $(thing)Sugar$() with 2-4 pieces of $(thing)Fruit$(). When the recipe is done, $(item)$(k:key.use)$() with the empty jar with lid to create a $(thing)Sealed Jar of Jam$(). If you use a regular $(thing)Empty Jar$(), you can still retrieve the jam, but will be unable to $(thing)Can$() it."
+      "text": "在鍋中將$(thing)糖$()與2-4顆$(thing)水果$()混合，小火慢燉。待湯汁半乾，準備完畢後，手持蓋子與空罐$(item)$(k:key.use)$()點選便能將果醬裝入$(thing)果醬瓶$()。如果使用不帶蓋子的普通$(thing)空玻璃罐$()，則只能將果醬盛出，而無法完成後續的$(thing)罐裝$()步驟。"
     },
     {
       "type": "patchouli:text",
-      "text": "To complete the canning process, put the sealed jar of jam into the pot, and boil it with $(thing)Water$(). This gives it the $(thing)Canned$() trait, which will make it last for a long time, until it is unsealed."
+      "text": "要完成果醬的最終罐裝，需要將封裝好的果醬罐放入鍋內，用$(thing)開水$()消殺滅菌。此時果醬瓶就能獲得$(thing)罐裝$()詞條，直到啟封前，其保質期將極大幅度延長。"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "tfc:crafting/jar/plum_unsealed",
-      "text": "Unsealing a jar is done by crafting. The lid is not able to be retrieved. An unsealed jar only lasts for a few days!"
+      "text": "要啟封果醬，只需在合成格內合成一次即可。此過程中蓋子會消失，無法重新使用。啟封后的果醬的保質期只有幾天！"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "tfc:crafting/food/barley_bread_jam_sandwich_1",
-      "text": "Jam is used for making sandwiches. Jam sandwiches can contain Dairy, Cooked Meats, and Jam. An $(thing)Empty Jar$() is left over."
+      "text": "果醬可以用來製作果醬三明治。果醬三明治可以包含奶製品、熟肉和果醬。製作完成後會留下$(thing)空玻璃罐$()。"
     },
     {
       "type": "patchouli:text",
-      "text": "Jars can be placed on solid surfaces with $(item)$(k:key.use)$(). A block can contain four jars of any kind."
+      "text": "手持玻璃罐$(item)$(k:key.use)$()點選可以將它放置下來。同一格內可以放置4只玻璃罐。"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "tfc:crafting/wood/shelf/oak",
-      "text": "$(thing)Shelves$() can be attached to solid walls. Items, including jars, can be placed on top of them by using the item - including jars - on the shelf, or underneath."
+      "text": "$(thing)架子$()可以放置在實心的牆面上。物品及玻璃罐等均可以放在上面。"
     }
   ],
   "read_by_default": true
